@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "stubsnow",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Stubborn Snow",
+  "description": "Stops Ice and Snow from melting when placed near a light source",
   "authors": [
-    "Me!"
+    "T0MAS"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/tomasitobambito/StubbornSnow"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/stubsnow/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.t0mas.stubbornsnow.StubbornSnow"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
